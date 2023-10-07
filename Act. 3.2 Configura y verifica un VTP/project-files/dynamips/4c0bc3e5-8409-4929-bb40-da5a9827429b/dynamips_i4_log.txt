@@ -1,0 +1,41 @@
+Sep 20 10:24:39.338 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 20 10:24:39.338 HYPERVISOR: Started on IP = localhost, TCP port = 65145.
+Sep 20 10:24:39.806 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 20 10:24:39.806 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Manuel NP\GNS3\projects\Act. 3.3 Configurar DHCP con 2 segmentos VLANS VTP\project-files\dynamips 
+Sep 20 10:24:39.806 GENERAL: working_dir=C:\Users\Manuel NP\GNS3\projects\Act. 3.3 Configurar DHCP con 2 segmentos VLANS VTP\project-files\dynamips
+Sep 20 10:24:39.806 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Manuel NP\GNS3\projects\Act. 3.3 Configurar DHCP con 2 segmentos VLANS VTP\project-files\dynamips\412885d3-5175-4782-9bb2-b3a1842b1c09 
+Sep 20 10:24:39.806 GENERAL: working_dir=C:\Users\Manuel NP\GNS3\projects\Act. 3.3 Configurar DHCP con 2 segmentos VLANS VTP\project-files\dynamips\412885d3-5175-4782-9bb2-b3a1842b1c09
+Sep 20 10:24:39.806 HYPERVISOR: exec_cmd: vm create ESW2 3 c3725 
+Sep 20 10:24:39.806 VM: VM ESW2 created.
+Sep 20 10:24:39.806 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW2 5011 
+Sep 20 10:24:39.806 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW2 
+Sep 20 10:24:39.806 HYPERVISOR: exec_cmd: vm set_disk0 ESW2 1 
+Sep 20 10:24:39.806 HYPERVISOR: exec_cmd: vm set_exec_area ESW2 64 
+Sep 20 10:24:39.806 HYPERVISOR: exec_cmd: vm set_ios ESW2 C:/Users/Manuel NP/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Sep 20 10:24:39.806 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW2 c203.3194.0000 
+Sep 20 10:24:39.806 HYPERVISOR: exec_cmd: vm set_nvram ESW2 256 
+Sep 20 10:24:39.822 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Sep 20 10:24:39.822 HYPERVISOR: exec_cmd: vm slot_add_binding ESW2 1 0 NM-16ESW 
+Sep 20 10:24:42.197 HYPERVISOR: exec_cmd: nio create_udp udp-9b1a3fe9-bc70-4b3f-a8f2-66ca56486198 10018 127.0.0.1 10019 
+Sep 20 10:24:43.041 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 0 1 udp-9b1a3fe9-bc70-4b3f-a8f2-66ca56486198 
+Sep 20 10:24:43.041 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Sep 20 10:25:46.724 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Sep 20 10:25:46.755 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Sep 20 10:25:59.394 HYPERVISOR: exec_cmd: vm set_ghost_status ESW2 2 
+Sep 20 10:25:59.396 HYPERVISOR: exec_cmd: vm set_ghost_file ESW2 C:\Users\Manuel NP\GNS3\projects\Act. 3.3 Configurar DHCP con 2 segmentos VLANS VTP\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost 
+Sep 20 10:25:59.398 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Sep 20 10:25:59.411 HYPERVISOR: exec_cmd: vm set_config ESW2 configs\i3_startup-config.cfg 
+Sep 20 10:25:59.412 HYPERVISOR: exec_cmd: vm start ESW2 
+Sep 20 10:26:34.578 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Sep 20 10:26:34.593 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Sep 20 10:29:08.189 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Sep 20 10:29:08.190 HYPERVISOR: exec_cmd: vm stop ESW2 
+Sep 20 10:29:08.403 VM: VM ESW2 shutdown.
+Sep 20 10:29:08.406 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Sep 20 10:29:08.822 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Sep 20 10:29:08.823 HYPERVISOR: exec_cmd: vm extract_config ESW2 
+Sep 20 10:29:08.828 HYPERVISOR: exec_cmd: vm delete ESW2 
+Sep 20 10:29:08.828 VM: VM ESW2 destroyed.
+Sep 20 10:29:08.856 HYPERVISOR: exec_cmd: hypervisor stop 
+Sep 20 10:29:08.917 HYPERVISOR: Stopped.
+Sep 20 10:29:08.917 GENERAL: reset done.
