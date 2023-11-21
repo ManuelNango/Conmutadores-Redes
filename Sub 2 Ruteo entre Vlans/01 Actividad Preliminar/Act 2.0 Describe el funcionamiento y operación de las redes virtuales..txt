@@ -1,0 +1,29 @@
+Las redes virtuales son sistemas que permiten conectar dispositivos entre sí a través de internet, sin necesidad de cables ni hardware físico. Estas redes funcionan mediante software que crea una capa de abstracción entre los dispositivos y la red física, lo que permite asignar direcciones IP, segmentar el tráfico y controlar el acceso.
+
+Existen diferentes tipos de redes virtuales según el ámbito, el alcance y la tecnología que utilizan. Algunos ejemplos son:
+
+- Redes virtuales externas: son redes que conectan varias redes locales físicas a través de internet, creando una red unificada y segura.
+
+- Redes virtuales internas: son redes que se crean dentro de una misma red local física, permitiendo segmentar el tráfico y aislar diferentes grupos de dispositivos.
+
+- Redes privadas virtuales (VPN): son redes que permiten acceder a una red local o a internet de forma remota y encriptada, protegiendo la identidad y los datos del usuario.
+
+- Redes virtuales definidas por software (SDN): son redes que se gestionan mediante software que controla el comportamiento y la configuración de los dispositivos de red, facilitando la adaptación y la optimización de la red.
+
+Además, existen otros tipos de redes según el tamaño y la distancia que abarcan, como las redes de área personal (PAN), las redes de área local (LAN), las redes de área metropolitana (MAN), las redes de área amplia (WAN) y las redes de área global (GAN).
+
+Algunas ventajas de las redes virtuales son:
+
+- Reducen los costes de inversión y mantenimiento al minimizar el uso de hardware de red.
+
+- Facilitan la comunicación y la colaboración entre personas de diferentes lugares y organizaciones.
+
+- Mejoran la seguridad y la privacidad al encriptar los datos y evitar el espionaje o el robo de información.
+
+Algunas desventajas de las redes virtuales son:
+
+- Requieren una conexión a internet estable y de buena calidad, lo que puede ser un problema en zonas remotas o con infraestructura deficiente.
+
+- Disminuyen el contacto humano y la interacción presencial, lo que puede afectar a la confianza y la empatía entre los participantes.
+
+- Implican una administración compleja y un mayor riesgo de errores o fallos técnicos al depender del software.
