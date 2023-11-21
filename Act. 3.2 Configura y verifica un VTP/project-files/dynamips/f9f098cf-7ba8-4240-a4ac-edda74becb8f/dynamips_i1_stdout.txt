@@ -1,6 +1,0 @@
-cygwin warning:
-  MS-DOS style path detected: C:\Users\Manuel NP\GNS3\projects\Act. 3.3 Configurar DHCP con 2 segmentos VLANS VTP\project-files\dynamips
-  Preferred POSIX equivalent is: /cygdrive/c/Users/Manuel NP/GNS3/projects/Act. 3.3 Configurar DHCP con 2 segmentos VLANS VTP/project-files/dynamips
-  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
-  Consult the user's guide for more details about POSIX paths:
-    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
