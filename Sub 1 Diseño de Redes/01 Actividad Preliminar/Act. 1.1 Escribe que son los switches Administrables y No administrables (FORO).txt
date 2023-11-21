@@ -1,0 +1,14 @@
+Redes de Área Local:
+
+Para una red de 132 equipos, podría ser con switches administrables para tener un mayor control sobre la red.
+
+Cantidad: 2 switches (para redundancia y balanceo de carga).
+Marca: Cisco.
+Modelo: Cisco Catalyst 2960X o superior (dependiendo de las necesidades específicas).
+Puertos del Switch: 48 puertos por switch (para permitir el crecimiento futuro y dejar margen para conexiones adicionales).
+
+Switch No Administrable:
+Un switch no administrable es un dispositivo plug-and-play que opera sin necesidad de configuración por parte del usuario. Son fáciles de usar y generalmente más económicos que los switches administrables. Sin embargo, su capacidad de configuración y monitoreo es limitada.
+
+Switch Administrable:
+Un switch administrable permite configurar y gestionar ciertos parámetros de la red. Ofrece mayor flexibilidad y control sobre el tráfico de la red, permitiendo ajustar funciones como la asignación de VLANs, calidad de servicio (QoS), y la monitorización del tráfico. Suelen ser más caros y requieren un conocimiento más avanzado para su configuración.
